@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Uma vez, enquanto mexia nas coisas de meu pai, encontrei uma carta secreta onde dizia: "de: ? para: ?", quano a abri e li o que tinha dentro, descobri que além de médico, meu pai também era um espião do governo. Assim que terminei de ler a carta, vi um endereço mais para baixo, logo pensei: "ah, por quê não?" Decidi que iria até esse endereço e descobriria qual é a verdade sobre meu pai</p>
+            <button class="btn-proximo" data-proximo="1">Curitiba</button>
+            <button class="btn-proximo" data-proximo="2">Morretes</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Curitiba, indo até a estação de trem ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na estação de trem</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Assim que você encontra uma pista da onde seu pai realmente trabalha, você pega um trem direto para Morretes. Ao chegar lá, você mostra aos moradores locais o endereço e muitos diziam que não sabia onde era, ou não conheciam. Quando sua esperana estava perto do fim, avistou uma senhora andando na calçada e logo se aproximou lhe mostrando o endereço e a senhora disse que conhecia e podia lhe informar onde ficava. "Procure nas praças e nas cafeterias, talvez você encontre o que está procurando" afirmou ela, você agradece e vai embora. Por onde irá começar a procurar?</p>
+            <button class="btn-proximo" data-proximo="5">Procurar nas praças</button>
+            <button class="btn-proximo" data-proximo="6">Procurar nas cafeterias</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você procura por toda parte das praças e logo começa a analisar os bancos e encontra uma dica de baxo de um deles.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Morretes</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No papel, você descobre um código, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>nas cafeterias, você procura, procura, procura e pocura  não encontra nada.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e procurar nas praças</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela verdadeira identdade de seu pai se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às pracas, você finalmente descobre um código. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com passagem secreta para um dos esconderijos de espiões do governo.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a passagem secreta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais do esconderijo dos espiões do govrno.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-esconderio-secreto.png" alt="encontrando o esconderijo secreto do governo em Amazonas">
+            <p>Dentro do esconderijo, você descobre coisas que nunca achou que realmente aconteceria e descobriu quem seu pai é na realidade e que tudo não passa de uma mera fachada</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra o esconderijo secreto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o esconderijo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
